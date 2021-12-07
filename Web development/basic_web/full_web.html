@@ -2,15 +2,54 @@
 
 <html lang="en-US"> <!-- This is single line comment-->
     <head>
-        <title>web page</title>
+        <title>basic page</title>
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
+        <div>
+            <form>
+                <table> <!--Table with corresponding elements like rows, headers, data-->
+                    <tr>
+                        <th>
+                            te
+                        </th>
+                        <th>
+                            tes
+                        </th>
+                        <th>
+                            test
+                        </th>
+                    </tr>
+                    <tr>
+                        <td>
+                            1324124
+                        </td>
+                        <td>
+                            1241234
+                        </td>
+                        <td>
+                            5467345764
+                        </td>
+                    </tr>
+                </table>
+            </form>
+
+        </div>
         <form>
             <fieldset>
+                <legend>User Login Details</legend>
                 <label for="fname">First Name:</label>
-                <input type="text" id="fname" name="fname">
+                <input type="text" id="fname" name="fname" required="">
                 <label for="lname">Last Name:</label>
-                <input type="text" id="lname" name="lname">
+                <input type="text" id="lname" name="lname" required="">
+                <input type="submit" value="Enter">
+            </fieldset>
+
+            <fieldset>
+                <legend>Email Login</legend>
+                <label for="email">Email address:</label>
+                <input type="email" id="email" name="email">
+                <input type="submit" value="Enter" required="">
             </fieldset>
             
         </form>
