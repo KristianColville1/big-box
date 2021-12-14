@@ -1,0 +1,63 @@
+
+header {
+    text-align: center;
+    font-size: xx-large;
+    font-family: fantasy;
+    font-style: italic;
+    background-color: wheat;
+    border-radius: 1rem;
+    border: 3px solid black;
+}
+
+nav {
+    text-align: left;
+    font-size: large;
+    font-family: fantasy;
+    font-style: oblique;
+    background-color: #46FFE3;
+    border-radius: 1rem;
+    border: 3px solid black;
+}
+
+em {
+    color: #ed06f5da;
+    font-style: normal;
+    font-size: xxx-large;
+}
+
+strong {
+    color: rgb(236, 96, 15);
+    font-style: normal;
+    font-size: xxx-large;
+}
+footer {
+    
+    text-align: center;
+    font-size: large;
+    font-family: fantasy;
+    font-style: oblique;
+    background-color: #CFFF86;
+    border-radius: 1rem;
+    border: 3px solid black;
+}
+
+h1 {
+    text-align: left;
+    font-size: x-large;
+    font-family: fantasy;
+    font-style: italic;
+    background-color: #00ffff;
+    border-radius: 1rem;
+    border: 3px solid black;
+}
+
+h1 > p {
+    color: black;
+    text-align: left;
+    border-radius: 1rem;
+    border: 3px solid black;
+}
+
+body {
+    background-color: #F9F871;
+}
