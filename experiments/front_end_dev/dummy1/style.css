@@ -1,10 +1,10 @@
 
 header {
     text-align: center;
-    font-size: xx-large;
+    font-size: x-large;
     font-family: fantasy;
     font-style: italic;
-    background-color: wheat;
+    background-color: #6C00FF;
     border-radius: 1rem;
     border: 3px solid black;
 }
@@ -14,7 +14,7 @@ nav {
     font-size: large;
     font-family: fantasy;
     font-style: oblique;
-    background-color: #46FFE3;
+    background-color: #FC00B9;
     border-radius: 1rem;
     border: 3px solid black;
 }
@@ -29,6 +29,7 @@ strong {
     color: rgb(236, 96, 15);
     font-style: normal;
     font-size: xxx-large;
+
 }
 footer {
     
@@ -36,7 +37,7 @@ footer {
     font-size: large;
     font-family: fantasy;
     font-style: oblique;
-    background-color: #CFFF86;
+    background-color: #00BA94;
     border-radius: 1rem;
     border: 3px solid black;
 }
@@ -46,15 +47,14 @@ h1 {
     font-size: x-large;
     font-family: fantasy;
     font-style: italic;
-    background-color: #00ffff;
+    background-color: #FF0075;
     border-radius: 1rem;
     border: 3px solid black;
 }
 
-h1 > p {
+div p {
     color: black;
     text-align: left;
-    border-radius: 1rem;
     border: 3px solid black;
 }
 
