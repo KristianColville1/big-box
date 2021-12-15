@@ -1,3 +1,58 @@
 header {
-    
+    text-align: center;
+    background-color: aquamarine;
+}
+
+h1 {
+    text-align: center;
+    background-color: coral;
+    color: solid black;
+}
+
+h2, h3 {
+    text-align: center;
+    background-color: rgb(13, 160, 218);
+}
+
+#red-color {
+    font-size: x-large;
+    color: red;
+}
+
+#blue-color {
+    font-size: x-large;
+    color: blue;
+}
+
+#yellow-color {
+    font-size: x-large;
+    color: yellow;
+}
+
+#green-color {
+    font-size: x-large;
+    color: green;
+}
+
+#orange-color {
+    font-size: x-large;
+    color: orange;
+}
+
+#white-color {
+    font-size: x-large;
+    color: white;
+}
+
+div > p {
+    background-color: rgb(92, 141, 17);
+    color: white;
+}
+
+.center {
+    text-align: center;
+}
+
+ul {
+    text-align: center;
 }
