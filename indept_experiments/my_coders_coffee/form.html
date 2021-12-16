@@ -11,13 +11,40 @@
         </header>
 
         <form method="post" action="index.html"><!--Looped back around to main site-->
-            <fielset>
+            <fieldset id="survey-details">
                 <legend>Your details go here:</legend>
                 
                 <div>
-                    <label
+                    <label>First Name:</label>
+                    <input type="text" required >
+                    <label>Last Name:</label>
+                    <input type="text" required >
                 </div>
-            </fielset>
+
+                <div>
+                    <label>Email Address:</label>
+                    <input type="email" required>
+                </div>
+
+                <div>
+                    <label>Phone:</label>
+                    <input type="text" required>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Fill out this survey</legend>
+                <label>What's your favourite coffee?</label>
+                <select required>
+                    <option selected>Arabica</option>
+                    <option>Black Coffee</option>
+                    <option>Decaf</option>
+                    <option>Espresso</option>
+                    <option>Latte</option>
+                    <option>Cappuccino</option>
+                    <option>Macchiato</option>
+                </select>
+            </fieldset>
         </form>
     </body>
 </html>
