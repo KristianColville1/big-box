@@ -6,13 +6,13 @@
     </head>
     <body>
         <header>
-            <h1>Win free Coffee!</h1>
+            <h1>Win free Coffee for a week!</h1>
             <p>Fill out this form to win a free coffee on us!</p>
         </header>
-
+        <hr>
         <form method="post" action="index.html"><!--Looped back around to main site-->
             <fieldset id="survey-details">
-                <legend>Your details go here:</legend>
+                <legend>Your details go here</legend>
                 
                 <div>
                     <label>First Name:</label>
@@ -31,9 +31,10 @@
                     <input type="text" required>
                 </div>
             </fieldset>
-
+            <br>
             <fieldset>
                 <legend>Fill out this survey</legend>
+                <div>
                 <label>What's your favourite coffee?</label>
                 <select required>
                     <option selected>Arabica</option>
@@ -44,6 +45,30 @@
                     <option>Cappuccino</option>
                     <option>Macchiato</option>
                 </select>
+                </div>
+                <br>
+                <div>
+                <label>How many cups a week do you drink?</label>
+                <select required>
+                    <option selected>0-3 cups</option>
+                    <option>3-6 cups</option>
+                    <option>6-9 cups</option>
+                    <option>9-12 cups</option>
+                    <option>Too many</option>
+                </select>
+                </div>
+                <br>
+                <div>
+                <label>Whats your age group?</label>
+                <select required>
+                    <option value="under-20">Under 20</option>
+                    <option value="20s">20-29</option>
+                    <option value="30s">30-39</option>
+                    <option value="40s">40-49</option>
+                    <option value="50s">50-59</option>
+                    <option value="60+">60+</option>
+                </select>
+                </div>
             </fieldset>
         </form>
     </body>
